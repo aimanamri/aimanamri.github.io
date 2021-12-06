@@ -1,6 +1,15 @@
 .top {
     width:100%;
     height:100px;
+    margin:auto;
+    justify-content:center;
+}
+
+.top h1{
+    text-align: bottom;
+    font-size: 1.5rem;
+    width: 100%;
+    color: white;
 }
 /* Media Queries */
 
