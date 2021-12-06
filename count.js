@@ -25,7 +25,7 @@ function calculateDifference(thenString) {
   }
   
 function displayDifference() {
-    displayBox.textContent = calculateDifference("2020-09-22" + ", " + "23:00")
+    displayBox.textContent = calculateDifference(dateInput.value + ", " + timeInput.value)
 }
 
 const dateInput = document.querySelector(".date")
